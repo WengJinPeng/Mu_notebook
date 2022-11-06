@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search {
+  margin-top: 90rpx;
+  height: 80rpx;
+  padding: 0 20rpx;
+  background-color: #FFFFFF;
+  border-radius: 15rpx;
+}
+.search .search-input {
+  flex: 1;
+  padding-left: 20rpx;
+}
+.content .swiper-item {
+  ouch-action: none;
+}
+.content .events-type {
+  height: 140rpx;
+}
+.content .events-type text {
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 140rpx;
+  margin: 0 20rpx 0 0;
+  text-align: center;
+  font-weight: 600;
+}
+.content .events-type .active {
+  background-color: #f2ec30;
+  color: #F0AD4E;
+  border-radius: 30rpx;
+}
+.content .events-item {
+  min-height: 200rpx;
+  padding: 25rpx 20rpx;
+  background-color: #c1e1e2;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+}
+.content .events-item .events-title {
+  font-size: 38rpx;
+  color: #f2a659;
+  font-weight: 700;
+  line-height: 50rpx;
+}
+.content .events-item .events-time {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #4b4b4b;
+  flex-wrap: wrap;
+}
+.content .events-item .events-time .events-time-tit {
+  display: inline-block;
+  line-height: 45rpx;
+  width: 158rpx;
+}
+.content .events-item .events-time .events-time-right {
+  flex: 1;
+}
+.content .events-item .events-time .events-time-right .events-cont {
+  display: flex;
+  flex-direction: column;
+}
+.content .events-item .events-time .events-time-right .events-time-cont {
+  line-height: 45rpx;
+  font-size: 12px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.content .events-item .events-intro {
+  display: block;
+  font-size: 25rpx;
+  line-height: 50rpx;
+}
+.content .events-item:nth-of-type(3n) {
+  background-color: #dce3f1;
+}
+.content .events-item:nth-of-type(3n-1) {
+  background-color: #e8e7e4;
+}
+.content .news-part {
+  display: flex;
+  flex-direction: column;
+  min-height: 200rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}
+.content .news-part .news-title {
+  font-size: 32rpx;
+  line-height: 50rpx;
+  font-weight: 900;
+}
+.content .news-part .news-time {
+  font-size: 24rpx;
+  color: #999999;
+  line-height: 60rpx;
+}
+.content .news-part .news-info {
+  font-size: 26rpx;
+  color: #666666;
+  line-height: 40rpx;
+}
+.content .news-part .news-read {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  align-self: center;
+  width: 220rpx;
+  background-color: #fef8be;
+  font-weight: 600;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.content .news-part .readed {
+  background-color: #dddddd;
+}
+.content .article-part {
+  background-color: #FFFFFF;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: column;
+  min-height: 400rpx;
+  padding-bottom: 30rpx;
+  margin-top: 30rpx;
+}
+.content .article-part .article-bg {
+  width: 100%;
+  height: 360rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.content .article-part .article-cont {
+  padding: 0 20rpx;
+}
+.content .article-part .article-cont .article-title {
+  font-size: 42rpx;
+  font-weight: 900;
+  line-height: 80rpx;
+}
+.content .article-part .article-cont .article-info {
+  justify-content: space-between;
+}
+.content .article-part .article-cont .article-info .article-member {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.content .article-part .article-cont .article-info .article-member .member-avatar {
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+}
+.content .article-part .article-cont .article-info .article-member .member-info {
+  margin-left: 20rpx;
+  flex: 1;
+}
+.content .article-part .article-cont .article-info .article-member .member-name {
+  font-weight: 600;
+  font-size: 30rpx;
+}
+.content .article-part .article-cont .article-info .article-member .article-time {
+  font-weight: normal;
+  font-size: 26rpx;
+}
+.content .article-part .article-cont .article-desc {
+  display: block;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  padding: 10rpx 0;
+}
+

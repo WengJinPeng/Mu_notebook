@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/post/post",
+    "pages/profile/profile",
+    "pages/sign/sign"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "木木的杂记本",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "static/icon/xinyuandan.png"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "Post",
+        "iconPath": "static/icon/shuxie.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "Profile",
+        "iconPath": "static/icon/daren.png"
+      }
+    ],
+    "selectedColor": "#fed7fd",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white"
+  },
+  "usingComponents": {}
+}

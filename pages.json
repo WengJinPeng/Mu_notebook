@@ -1,0 +1,63 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/post/post",
+			"style": {
+				"navigationBarTitleText": "记事本",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "木木的杂记本",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "Home",
+				"iconPath": "static/icon/xinyuandan.png"
+			},
+			{
+				"pagePath": "pages/post/post",
+				"text": "Post",
+				"iconPath": "static/icon/shuxie.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "Profile",
+				"iconPath": "static/icon/daren.png"
+			}
+		],
+		"selectedColor": "#fed7fd",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}
